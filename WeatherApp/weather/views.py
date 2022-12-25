@@ -32,3 +32,4 @@ def index(request):
     context = {'all_info': all_cities, 'form': form}
     return render(request, 'weather/index.html', context)
 
+
