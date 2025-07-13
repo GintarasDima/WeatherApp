@@ -5,7 +5,7 @@ from .models import City
 from .forms import CityForm
 
 def index(request):
-    appid = 'a2bb2f38b57421f5bc92880795f6bcff'
+    appid = ''
     url = "https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=" + appid
 
 
